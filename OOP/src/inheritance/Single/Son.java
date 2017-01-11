@@ -1,4 +1,4 @@
-//Single Inheritance
+//Single Inheritance --
 
 package inheritance.Single;
 
