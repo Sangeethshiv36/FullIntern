@@ -7,12 +7,11 @@ public class Pokeball {
 		Pikachu pika = new Pikachu();
 		pika.throwBall();
 		pika.attack("IRON TAIL!");
-		
+
 		Bulbasaur bulba = new Bulbasaur();
 		bulba.throwBall();
-		bulba.attack("RAZORLEAF!",2);
-	
-		
+		bulba.attack("RAZORLEAF!", 2);
+
 	}
 
 }

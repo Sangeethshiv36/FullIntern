@@ -6,14 +6,14 @@ public class Hierarchy {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Sports cricket = new Cricket();
-		
-		cricket.teamSize(cricket);
-		cricket.worldCup(cricket);
-		cricket.matchLength(cricket);
+
+		cricket.showTeamSize(cricket);
+		cricket.winningTrophy(cricket);
+		cricket.showMatchLength(cricket);
 		System.out.println("*************");
 		Sports footBall = new FootBall();
-		footBall.worldCup(footBall);
-		footBall.matchLength(footBall);
-		}
+		footBall.winningTrophy(footBall);
+		footBall.showMatchLength(footBall);
+	}
 
 }
